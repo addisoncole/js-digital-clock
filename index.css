@@ -13,17 +13,21 @@ body {
     text-align: center;
     color: white;
     font-size: 100px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .small-clocks div {
   height: 100px;
   width: 800px;
-  margin: auto;
-  padding: 10px;
+  margin: .5em;
+  padding: 20px;
   font-family: courier, monospace;
   text-align: center;
-  color: white;
+  color: lightgrey;
   font-size: 20px;
+  border-radius: 50%;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
 }
 
 .small-clocks{
