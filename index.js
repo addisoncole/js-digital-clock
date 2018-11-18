@@ -80,7 +80,7 @@ $(document).ready(function() {
         color = color.match(/.{1,2}/g);
 
         let hour = parseInt(color[0]);
-            hour += 55;
+            hour += 50;
             hour = hour.toString();
         let minute = color[1];
         let second = color[2];
@@ -115,7 +115,7 @@ $(document).ready(function() {
         color = color.match(/.{1,2}/g);
 
         let hour = parseInt(color[0]);
-            hour += 25;
+            hour += 23;
             hour = hour.toString();
         let minute = color[1];
         let second = color[2];
@@ -149,7 +149,7 @@ $(document).ready(function() {
     color = color.match(/.{1,2}/g);
 
     let hour = parseInt(color[0]);
-        hour += 40;
+        hour += 30;
         hour = hour.toString();
     let minute = color[1];
     let second = color[2];
@@ -182,7 +182,7 @@ $(document).ready(function() {
     color = color.match(/.{1,2}/g);
 
     let hour = parseInt(color[0]);
-        hour += 65;
+        hour += 60;
         hour = hour.toString();
     let minute = color[1];
     let second = color[2];
