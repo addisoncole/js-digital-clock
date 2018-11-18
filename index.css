@@ -14,3 +14,20 @@ body {
     color: white;
     font-size: 100px;
 }
+
+.small-clocks div {
+  height: 100px;
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  font-family: courier, monospace;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.small-clocks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
